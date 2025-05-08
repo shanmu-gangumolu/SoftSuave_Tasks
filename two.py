@@ -1,3 +1,6 @@
+# how to connect our FastAPI code to MYSQL DataBase and
+# How to perform CRUD operations in MYSQL Workbench and Web DOCs aswell.
+
 from typing import Annotated
 from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlmodel import Field, Session, SQLModel, select
